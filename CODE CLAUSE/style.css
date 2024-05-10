@@ -137,5 +137,17 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    bottom: 520px;
+  }
+
+  img{
+    border-radius: 10%;
+  }
+
+  .image-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
     bottom: 500px;
   }
