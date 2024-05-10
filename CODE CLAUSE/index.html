@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vibrant Visions</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/VIBRANT VISIONS.png">
+</head>
+<body>
+    <div class="patterns">
+        <svg width="100%" height="100%">
+          <rect x="0" y="0" width="100%" fill="url(#polka-dots)"> </rect>
+       <text x="50%" y="15%" text-anchor="middle">
+         Vibrant Visions
+       </text>
+       </svg>
+    </div>
+    <div class="button-container">
+        <button onclick="filterImages('')">
+            <span class="box">Show All</span>
+        </button>
+        <button onclick="filterImages('nature')">
+            <span class="box">Nature</span>
+        </button> 
+        <button onclick="filterImages('animals')">
+            <span class="box">Animals</span>
+        </button>
+        <button onclick="filterImages('Technology')">
+            <span class="box">Technology</span>
+        </button>
+    </div>
+
+    <div class="image-container">
+        <img src="/IMAGES/NATURE 1.jpg" alt="Nature Image 1" data-tags="nature">
+        <img src="/IMAGES/NATURE 2.jpg" alt="Nature Image 2" data-tags="nature">
+        <img src="/IMAGES/NATURE 3.jpg" alt="Nature Image 3" data-tags="nature">
+        <img src="/IMAGES/NATURE 4.jpg" alt="Nature Image 4" data-tags="nature">
+        <img src="/IMAGES/ANIMAL 1.jpg" alt="Animal Image 1" data-tags="animals">
+        <img src="/IMAGES/ANIMAL 2.jpg" alt="Animal Image 2" data-tags="animals">
+        <img src="/IMAGES/ANIMAL 3.jpg" alt="Animal Image 3" data-tags="animals">
+        <img src="/IMAGES/ANIMAL 4.jpg" alt="Animal Image 4" data-tags="animals">
+        <img src="/IMAGES/TECHNOLOGY 1.jpg" alt="Technology Image 1" data-tags="Technology">
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
